@@ -10,14 +10,13 @@ This challenge is intended for backend position or global internship applicants.
 - The first line of the input will be an integer `N (1 <= N <= 100)`, indicating the number of test cases to follow.
 - Each of the test cases will consist of a line with an integer `X (0 < X <= 100)`, followed by another line consisting of X number of space-separated integers `Yn (-100 <= Yn <= 100)`.
 - For each test case, calculate the sum of squares of the integers, excluding any negatives, and print the calculated sum in the output.
-
-**Note 1:** There should be no output until all the input has been received.
-**Note 2:** Do not put blank lines between test cases solutions.
-**Note 3:** Take input from standard input, and output to standard output.
+- **Note 1:** There should be no output until all the input has been received.
+- **Note 2:** Do not put blank lines between test cases solutions.
+- **Note 3:** Take input from standard input, and output to standard output.
 
 ### Rules
 
-- Write your solution using Go Programming Language
+- Write your solution using [Go Programming Language](http://golang.org/)
 - Your source code must be a single file (package main)
 - Do not use any for statement
 - You may only use standard library packages
@@ -43,7 +42,7 @@ This challenge is intended for backend position or global internship applicants.
 
 ### Description
 
-Publish your source code as a secret gist. You will need a GitHub account to create a secret gist, if you are not familiar with secret gists, follow the instructions here.
+Publish your source code as a secret gist. You will need a GitHub account to create a secret gist, if you are not familiar with secret gists, follow the instructions [here](https://help.github.com/articles/creating-gists).
 
 Please make sure not to publish it as a public gist.
 
@@ -53,7 +52,7 @@ Your program will be auto-tested, so please be strict about the input/output.
 
 **Note:** Make sure to upload only a single golang file with your solution and no additional files.
 
-## **Mission 3:** Send us the URL of your work
+## *Mission 3:* Send us the URL of your work
 
 ### Description
 
@@ -85,7 +84,7 @@ The URL is protected by HTTP Basic Authentication, which is explained on Chapter
 
 **Authorization password**
 
-- For generating the TOTP password, you will need to use the following setup:
+For generating the TOTP password, you will need to use the following setup:
 
 - You have to read RFC6238 (and the errata too!) and get a correct one time password by yourself.
 - TOTP's Time Step X is 30 seconds. T0 is 0.
